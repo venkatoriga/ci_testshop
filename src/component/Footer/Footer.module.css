@@ -1,0 +1,114 @@
+.maindiv{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:15px ;
+    padding-right: 15px;
+}
+.changeColor:hover{
+        color: #999e51 !important;
+}
+.ninthcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.messagecontainer{ 
+    height: 234px;
+    width: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.companylogo{
+    width:9.375rem;
+   height: 7.8125rem;
+  
+}
+.messagecontainer p{
+
+ height: 140px;
+ opacity: 80%;
+ font-family: Poppins;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 28px;
+ letter-spacing: 0em;
+ text-align: left;
+ 
+}
+.info{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    opacity: 80%;
+}
+.info1{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.info1 h3{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color:#2A2D07;
+}
+.info a,.info a:hover{
+    text-decoration: none;
+    color: #211E24;
+}
+
+.info h3{
+    font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+line-height: 28.8px;
+letter-spacing: 0em;
+text-align: left;
+color:#2A2D07;
+}
+.socialmediadiv{
+    display: flex;
+align-items: center;
+}
+.socialmedialogo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+max-width: 209px;
+}
+.socialmedia{
+    height: 20px;
+    width: 20px;
+  margin-right: 2.5rem;
+}
+@media (max-width:768px){
+    .maindiv{
+        padding-bottom: 0rem;
+    }
+    .info1{
+        justify-content: flex-start;
+    }
+}
+@media (max-width:576px) {
+    .socialmedialogo{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0rem;
+        max-width: 128px;
+    
+    }
+    .socialmedia{
+        margin-right: 0rem;
+    
+    }  
+}

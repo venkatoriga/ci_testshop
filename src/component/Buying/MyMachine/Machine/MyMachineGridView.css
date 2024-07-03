@@ -1,0 +1,12 @@
+.machine-grid-wrap{display:flex;flex-wrap:wrap;row-gap:50px;margin:40px 0 0;}
+.machine-grid-wrap .item{width:calc(33.33%);padding:25px;transition:.2s;border-right:1px solid rgba(115, 80, 158, 0.10);}
+.machine-grid-wrap .item .image-wrap{height:230px;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:20px 0;}
+.machine-grid-wrap .item .image-wrap .product-img{display:flex;}
+.machine-grid-wrap .item .label-item{font-style:14px;border-radius:16px;padding:4px 14px;color:#211E24;align-items:flex-start;background:#F5C518;border:none;width:max-content;margin:0 0 15px;}
+.machine-grid-wrap .item .owned{background:#0073ba;color:#fff;}
+.machine-grid-wrap .item .machine-info{margin:15px 0 0;}
+.machine-grid-wrap .item .btns-wrap{display:flex;justify-content:flex-end;column-gap:12px;margin:30px 0 0;}
+.machine-grid-wrap .item .btns-wrap .item-btn{height:54px;padding:0 30px;background:#73509E;border-radius:12px;border:none;color:#fff;}
+.machine-grid-wrap .item .btns-wrap .simple-btn{padding:0 15px;color:#000;background:none;}
+.machine-grid-wrap .item:hover{background:#9B9E51;color:#fff;}
+.machine-grid-wrap .item:hover .btns-wrap .simple-btn{color:#fff}

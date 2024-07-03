@@ -1,0 +1,56 @@
+.maindiv {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.servicescointainer {
+    overflow: hidden;
+    transition: height 0.3s;
+    height: 100%;
+}
+
+.servicescointainer:hover {
+    background-color: rgba(155, 162, 76, 1);
+    height: auto;
+}
+
+.serviceImg img {
+    width: 80%;
+    /* Adjust this value to your preferred size */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s;
+}
+
+.servicescointainer:hover .serviceImg img {
+    transform: scale(0.85);
+}
+
+.serviceTitleContainer {
+    display: none;
+    transition: opacity 0.3s;
+    opacity: 0;
+    color: #F5F5F5;
+}
+
+.servicescointainer:hover .serviceTitleContainer {
+    display: block;
+    opacity: 1;
+}
+
+.servicescointainer:hover .afterHover {
+    flex-direction: row-reverse;
+}
+
+.servicescointainer:hover .serviceBottomTitle {
+    display: none;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .serviceImg {
+        width: 266px !important;
+        height: 250px !important;
+    }
+}

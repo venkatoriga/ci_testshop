@@ -1,0 +1,6 @@
+.machine-info-3{display:flex;column-gap:25px;}
+.machine-info-3 .machine-item{flex:1;padding:25px;border-radius:8px;border:1px solid #DDD;display:flex;column-gap:12px;justify-content:space-between;}
+.machine-info-3 .machine-item .inner-item .heading-wrap{display:flex;column-gap:10px;align-items:center;}
+.machine-info-3 .machine-item .inner-item .heading-wrap .machine-label{font-style:14px;border-radius:16px;padding:4px 14px;color:#211E24;align-items:flex-start;background:#F5C518;border:none;width:max-content;}
+.machine-info-3 .machine-item .inner-item .head-btn{height:48px;background:#73509E;color:#fff;border-radius:12px;border:none;width: 160px;}
+.machine-info-3 .machine-item .inner-item-column{display:flex;column-gap:10px;}

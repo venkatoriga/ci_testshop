@@ -1,0 +1,3 @@
+.top-wrap{display:flex;justify-content:space-between;column-gap:10px;}
+.name-wrap{padding:25px;border:1px solid #DDD;border-radius:8px;overflow:hidden;margin:20px 0 0;display:flex;column-gap:20px;justify-content:space-between;align-items:center;}
+.name-wrap .contact-btn{height: 54px;background: #73509E;color: #fff;border-radius: 12px;padding: 0 30px;border:none;}

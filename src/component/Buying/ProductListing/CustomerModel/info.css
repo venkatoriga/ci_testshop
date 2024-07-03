@@ -1,0 +1,276 @@
+/* Styling the OTP container */
+.otp-container {
+  /* border-top: 1rem solid transparent;  */
+  display: flex;
+  align-items: center;
+  border: 2px solid #AAAAAA;
+border-radius: 4px;
+justify-content: space-between;
+padding: 10px;
+width: fit-content;
+margin: auto;
+}
+
+
+.otp-container div :last-child {
+  border: none !important;
+}
+.otp-container div input:focus{
+  border:1px solid  #AAAAAA;
+}
+.customerinfo-hw{
+  width: 40%;
+  max-width: 996px;
+  height: 100%;
+  /* max-height: 584px; */
+}
+.otp-text{
+  position: absolute;
+  margin-top: -65px;
+  margin-left: 10px;
+  padding-left: 2PX;
+  padding-right: 2PX;
+  background-color: #fff;
+}
+
+.right-border{
+  border-right: 1px solid #AAAAAA !important ;
+  border-radius: 0;
+}
+.right-border-error{
+  border-right: 1px solid #CB1923 !important ;
+  border-radius: 0;
+}
+/* Base styles (for larger screens) */
+.left-part {
+  width: 36.5rem;
+  height: 36.5rem;
+  flex-shrink: 0;
+  border-radius: 8px 0px 0px 8px;
+}
+.login-logo{
+  width: 82px;
+  height:41px;
+  display: flex;
+  justify-content: flex-start;
+}
+/* .login-logo-img{
+  max-width: 3rem;
+  max-height: auto;
+} */
+
+.box {
+  width: 62.25rem;
+  height: 36.5rem;
+  flex-shrink: 0;
+  margin-top: 36px;
+  margin-left: 36px;
+}
+
+.right-part {
+  width: 470px;
+  height: 583px;
+  flex-shrink: 0;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.right-part > img {
+  margin-left: 400px;
+}
+
+.right-part > h4 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 130px;
+}
+
+.right-part > p {
+  width: 276px;
+  color: var(--text-color-dark-text, #4d4d4d);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 50px;
+}
+
+.right-part > h6 {
+  color: var(--text-color-dark-text, #4d4d4d);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 230px;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-left: 50px;
+}
+
+.Contact > input {
+  width: 408px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+.Contact > input ::placeholder {
+  color: var(--neutral-500-p, #878896);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.frame > h4 {
+  margin-left: 52px;
+}
+
+.otp {
+  width: 408px;
+  height: 48px;
+  flex-shrink: 0;
+  background: var(--grey-200-d-2-d-1-d-4, #b5bcd3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.otp > p {
+  display: flex;
+  height: 19px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--black-white-white, var(--white, #fff));
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+.content > h4 {
+  margin-right: 170px;
+  margin-left: 100px;
+}
+
+.content > p {
+  margin-left: 100px;
+}
+
+/* Media queries for tablet */
+@media (max-width: 768px) {
+  .left-part,
+  .right-part,
+  .box {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .right-part > img {
+    margin-left: 0;
+  }
+
+  .right-part > h4 {
+    margin-right: 0;
+  }
+
+  .right-part > p {
+    margin-left: 0;
+  }
+
+  .right-part > h6 {
+    margin-right: 0;
+  }
+
+  .Contact > input {
+    width: 100%;
+  }
+
+  .frame > h4 {
+    margin-left: 0;
+  }
+
+  .otp {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Media queries for mobile */
+@media (max-width: 480px) {
+  .left-part,
+  .right-part,
+  .box {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .right-part > img {
+    margin-left: 0;
+  }
+
+  .right-part > h4 {
+    margin-right: 0;
+  }
+
+  .right-part > p {
+    margin-left: 0;
+  }
+
+  .right-part > h6 {
+    margin-right: 0;
+  }
+
+  .Contact > input {
+    width: 100%;
+  }
+
+  .frame > h4 {
+    margin-left: 0;
+  }
+
+  .otp {
+    width: 100%;
+    margin-left: 0;
+  }
+}

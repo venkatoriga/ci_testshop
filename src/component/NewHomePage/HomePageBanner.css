@@ -1,0 +1,75 @@
+
+.newHomebanner{width: 100%; height: 388px;padding: 0px 15px; position: relative;background-image: url('../../../public/asset/finance_background.svg');}
+.newHomebanner .newbanner-main{display:block;}
+.newHomebanner .newbanner-main .newbanner-text{width: 100%; text-align: start;padding-top: 28px;}
+.newHomebanner .newbanner-main .newbanner-text .heading-600-28{text-align: start;}
+.newHomebanner .newbanner-main .banner-items{display: flex;height: 270px; align-items: center;width: 100%;justify-content: start;}
+.newHomebanner .newbanner-main .banner-items .banner-items-wrap{display: flex;gap: 20px;align-items: center;flex-wrap: wrap;}
+.newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item{width: 204px!important;height: 184px;display: flex;align-items: center;justify-content: center;  Padding:16px 24px 16px 24px;background-color:rgba(255, 255, 255, 0.3);border-radius: 8px;}
+.newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item .banner-item-wrap{text-align: center;width: 150px; height: 100%;display: flex;align-items: center;justify-content: space-between;flex-direction: column;}
+.newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item:hover{height: 250px;background: rgba(115, 80, 158, 1);}
+.newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item .banner-item-wrap .banner-item-title{line-height: 20px;width: 150px;}
+.newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item .banner-item-wrap .banner-item-title,.newHomebanner .newbanner-main .banner-items .banner-item .banner-item-wrap .banner-item-para{color:rgba(255, 255, 255, 1);}
+.f-btn{padding:13px 35px;background: #9BA24C;outline: none; border: none; border-radius: 12px;color: #FFF; display: none;align-items: center;justify-content: center;}
+.newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item:hover .f-btn{display: flex;font-size: 16px;font-weight: 600;text-wrap: nowrap;}
+.mt-12{margin-top: 12px;}
+.ori-addvantage-para{padding-top: 12px;}
+
+
+.newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item:hover .banner-item-title{font-weight: 600 !important;}
+
+.newHomebanner .social-media{position: absolute; right: 0; bottom:16px;}
+.newHomebanner .social-media .whatsapp-div{padding: 10px 8px;width: 40px;height: 95px; position: relative;background: #73509E;cursor: pointer;}
+.newHomebanner .social-media .application-div{padding: 10px 6px; width: 40px;height: 105px; position: relative;background: #9B9E51;cursor: pointer;}
+.newHomebanner .social-media .application-div .application{color: #FFF;transform: rotate(270deg);/* rotate: 270deg; */position: absolute;left: -20px;bottom: 41px;font-size: 14px;font-weight: 600;line-height: 24px;}
+.newHomebanner .social-media .whatsapp-div .whatsapp{color: #FFF;transform: rotate(270deg);/* rotate: 270deg; */position: absolute;left: -16px;bottom: 41px;font-size: 14px;font-weight: 600;line-height: 24px;}
+.newHomebanner .social-media .whatsapp-div .whatsapp-qr{    position: absolute;
+    border-radius: 4px;
+    left: -84px;
+    top: -14px;
+    width: 124px;
+    z-index: 2;
+    height: 160px;
+    background: #73509E;
+    padding: 12px 4px;}
+.newHomebanner .social-media .application-div .application-qr{
+    position: absolute;
+    border-radius: 4px;
+    left: -84px;
+    top: -14px;
+    width: 124px;
+    z-index: 2;
+    height: 160px;
+    background: #9B9E51;
+    padding: 12px 4px;
+}
+@media screen and (max-width:1125px){
+    .newHomebanner{height: unset; padding-bottom: 30px;}
+    .newHomebanner .newbanner-main .banner-items{height: unset;}
+}
+@media screen and (max-width:992px) {
+    .newHomebanner{align-items: start;}
+    .newHomebanner .newbanner-main{display: block;align-items: start;}
+    .newHomebanner .newbanner-main .newbanner-text .heading-600-28{text-align: center;font-size: 26px;}
+    .newHomebanner .newbanner-main .newbanner-text{margin:0 auto;text-align: center;}
+    .newHomebanner .newbanner-main .banner-items{justify-content: center;}
+}
+
+@media screen and (max-width:769px) {
+    .newHomebanner .newbanner-main .newbanner-text .heading-600-28{text-align: center;font-size: 24px;}
+   
+}
+@media screen and (max-width:576px) {
+    .ori-addvantage-para{padding-top: 8px;}
+    .newHomebanner .newbanner-main .newbanner-text{margin:0 auto;text-align: center;padding-right:40px ;}
+    .newHomebanner .social-media{position: absolute; right: 0; bottom:unset;top:30px}
+    .f-btn{padding:13px 25px;}
+    .newHomebanner .newbanner-main .banner-items .banner-items-wrap{justify-content: center;}
+    .newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item{width: 150px!important;}
+    .newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item .banner-item-wrap{width:130px}
+    .newHomebanner .newbanner-main .banner-items .banner-items-wrap .banner-item .banner-item-wrap .banner-item-title{line-height: 18px;width: 128px;}
+}
+
+@media screen and (max-width:407px) {
+    .newHomebanner{align-items: start;}
+}

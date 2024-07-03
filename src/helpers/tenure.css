@@ -1,0 +1,31 @@
+.tenure-slider{width: 100%;}
+.bi-tenure-slider-wrap .top-wrap-tenure{display: flex;justify-content: space-between;}
+.tenure-slider .multi-range-slider {
+    display: flex;
+    position: relative;
+    border: none; 
+    border-radius: none;
+    padding: 20px 0px;
+   box-shadow: none;
+    flex-direction: column;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.tenure-slider .multi-range-slider .bar .bar-left {padding: 0px !important;}
+.tenure-slider .multi-range-slider .ruler,.tenure-slider .multi-range-slider .labels{display: none !important;}
+.tenure-slider .multi-range-slider .bar::before{display: none;}
+.tenure-slider .multi-range-slider .bar .thumb-left{display: none;}
+.tenure-slider .multi-range-slider .bar .bar-left{display: none; box-shadow: none;height: 4px;background-color: #9B9E51 !important}
+.tenure-slider .multi-range-slider .bar .bar-right{box-shadow: none;height: 4px;}
+.tenure-slider .multi-range-slider .bar .bar-inner{box-shadow: none; border: none;border-radius: 8px;}
+.tenure-slider .multi-range-slider .thumb::before{box-shadow: none;top:4px; border:2px solid #73509E;height: 16px;width: 16px; margin: -11px -12px;}
+/* multi-range-slider .thumb:active .caption */
+.tenure-slider .multi-range-slider .thumb .caption *{display: none;}
+/* .tenure-slider .multi-range-slider .thumb .caption .max-caption{ font-size: 10px;font-weight: 700;line-height: 18px;letter-spacing: 0em;} */
+/* .tenure-slider .multi-range-slider .thumb .caption .max-caption::before,.multi-range .multi-range-slider .thumb .caption .min-caption::before{content: "years";} */
+.tenure-slider .price-container{display: flex;justify-content: space-between;}
+.tenure-slider .price-container .price-box{ position: relative;;display: flex;font-family: Poppins;font-size: 10px;font-weight: 400;line-height: 18px;letter-spacing: 0em;text-align: left;}
+.tenure-slider .price-container .price-box .price-input{width: 90px;padding-left: 34px;}
+.tenure-slider .price-container .price-box .price-title{position: absolute;top:11px;left:5px}
+.tenure-slider .price-container .price-box .price-input:focus{border: 1px solid #CCC;}

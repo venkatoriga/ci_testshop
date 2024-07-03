@@ -1,0 +1,269 @@
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Adjust the top margin to create space */
+}
+
+.box-item-btn{
+    background: #73509E;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+
+}
+
+
+.FinancePending-popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background for overlay */
+    padding: 20px;
+}
+
+.FinancePending-popup .back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Darker semi-transparent overlay */
+}
+
+.FinancePending-popup .inner {
+    background: #e0dede;
+    width: auto; /* Allows the popup to grow based on content */
+    max-width: 70vw; /* Max-width is 50% of the viewport width */
+    max-height: 70vh; /* Max-height is 70% of the viewport height */
+    overflow-y: auto; /* Makes content scrollable if it exceeds max-height */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Ensures child elements like tables stretch to fill the width */
+}
+
+.FinancePending-popup .inner .close {
+    position: absolute; /* Positions the close button absolutely within the header */
+    right: 20px; /* Positions the close button towards the right */
+    top: 50%; /* Aligns the button vertically to the middle */
+    transform: translateY(-50%); /* Ensures the button is exactly centered vertically */
+    background: transparent; /* Makes the button background transparent */
+    border: none; /* Removes the button border */
+    color: white; /* Sets the button text (X) color to white */
+    font-size: 24px; /* Increases the size of the X for visibility */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .FinancePending-popup .inner {
+        width: 90vw; /* On smaller screens, make the popup take more width */
+        max-width: 90vw; /* Ensure the popup does not exceed the viewport width */
+        max-height: 90vh; 
+    }
+}
+
+.finance-table-responsive {
+    display: block;
+    width: 100%; /* Ensures this container takes up 100% of its parent's width */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on touch devices */
+}
+
+.finance-table {
+    width: 100%;
+    min-width: 600px; /* Minimum width to ensure table structure */
+    border-collapse: collapse;
+    margin-top: 20px; /* Add some space above the table if needed */
+}
+
+.finance-table th, .finance-table td {
+    padding: 10px 5px;
+    white-space: nowrap; /* Prevent text from wrapping to ensure horizontal scrolling */
+    border: 1px solid #080808;
+}
+
+/* Typography adjustments */
+.heading-600-20, .heading-400-14, .heading-600-14-12 {
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .heading-600-20 {
+        font-size: 1.25rem; /* Larger text on desktop */
+    }
+}
+
+/* Responsive containers and elements */
+/* .container, .row, .col {
+    padding: 0 15px;
+} */
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0; /* Revert padding for desktop */
+    }
+    .col-md-12, .col-lg-7, .col-md-9, .col-lg-5, .col-md-3 {
+        flex: 0 0 auto; /* Adjust based on design */
+    }
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4px;
+    color: #211E24;
+    background-color: #73509E;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.popup-title-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.popup-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+/* Hide content on small screens, show on larger screens */
+@media screen and (min-width: 769px) {
+    .show-on-large, .finance-table {
+        display: block;
+    }
+    .hide-on-large {
+        display: none;
+    }
+}
+
+/* Show content on small screens, hide on larger screens */
+@media screen and (max-width: 768px) {
+    .show-on-large, .finance-table {
+        display: none;
+    }
+    .hide-on-large {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .finance-details {
+        border: 1px solid #080808;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+
+    .finance-detail-row {
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        flex-wrap: wrap;
+    }
+
+    .finance-label, .finance-value {
+        padding: 4px;
+        word-wrap: break-word; /* Allows text to wrap */
+        overflow-wrap: break-word; /* Ensures break at appropriate points */
+    }
+
+    .finance-label {
+        flex-basis: 120px; /* Fixed width for labels */
+        flex-grow: 0;
+        flex-shrink: 0;
+        font-weight: bold;
+        background-color: #e0dede;
+    }
+
+    .finance-value {
+        flex-grow: 1; /* Allows value to take up the rest of the space */
+        /* No fixed width to allow content to wrap */
+    }
+
+    .finance-details button {
+        width: 100%;
+        padding: 8px;
+        margin-top: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .finance-details button:hover {
+        background-color: #0056b3;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .popup-header {
+        padding: 10px; /* Slightly reduce padding */
+    }
+    .popup-header {
+        margin-bottom: 5px; /* Adds space between the header and the next element */
+    }
+    .popup-title {
+        font-size: 1.2rem; /* Adjust font size for better readability on small screens */
+    }
+    .close {
+        font-size: 20px; /* Slightly reduce the close button size */
+        right: 10px; /* Reduce space to the right edge */
+    }
+    .FinancePending-popup .inner {
+        max-width: 90vw; /* Increase width for smaller screens to utilize more space */
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .finance-table-responsive {
+        overflow-x: auto; /* Allows horizontal scrolling */
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .finance-table th, .finance-table td {
+        font-size: 0.8rem; /* Reduce font size */
+        padding: 5px; /* Reduce padding */
+    }
+}
+@media screen and (max-width: 390px) {
+    .finance-table {
+        display: none; /* Hide the table on small screens */
+    }
+    .finance-detail-row {
+        display: block; /* Stack label-value pairs vertically */
+        margin-bottom: 10px; /* Add some space between each pair */
+    }
+    .finance-label, .finance-value {
+        display: block; /* Ensure they stack vertically */
+        text-align: left; /* Align text for readability */
+    }
+}
+@media screen and (max-width: 390px) {
+    .finance-table {
+        table-layout: fixed;
+        width: 100%;
+    }
+    .finance-table td, .finance-table th {
+        word-wrap: break-word; /* Allows long words to wrap */
+    }
+}

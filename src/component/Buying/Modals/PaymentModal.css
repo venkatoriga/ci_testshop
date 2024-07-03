@@ -1,0 +1,13 @@
+.bi-popup-wrap .inner .heading-600-20 {color:#211E24;margin:0 0 20px;text-align:center;}
+.bi-popup-wrap .inner .heading-400-14-12{color:#211E24;opacity: 0.8;text-align:center;}
+.bi-popup-wrap .inner .payment-icon{display:flex;margin: 0 0 30px;}
+.bi-popup-wrap .inner .payment-icon svg{margin:0 auto;flex:190px 0 0;}
+.bi-popup-wrap .inner .continue-btn{padding: 14px 40px;background: #73509E;color: #fff;border-radius: 12px;border: none;width: max-content;margin: 30px auto 0;}
+@media(max-width:767px){
+    .bi-popup-wrap .inner .continue-btn{padding:12px 30px;}
+}
+@media(max-width:576px){
+    .bi-popup-wrap .inner .heading-600-20 {text-align: center;margin:0 0 20px;}
+    .bi-popup-wrap .inner .payment-icon{margin: 0 0 20px;}
+    .bi-popup-wrap .inner .continue-btn{padding:12px 20px;margin:20px auto 0;}
+}

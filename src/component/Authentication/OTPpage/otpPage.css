@@ -1,0 +1,76 @@
+.number {
+  color: var(--text-color-medium-text, #a4a4a4);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.edit {
+  color: var(--text-color-dark-text, #4d4d4d);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 10px;
+}
+.resend {
+  color: var(--text-color-dark-text, #4d4d4d);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.time {
+  color: var(--text-color-dark-text, #4d4d4d);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.otp-boxes {
+  display: flex;
+}
+.otp-boxes > input {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 10px 0px 9px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--grey-100-e-8-e-8-ea, #d9dde8);
+  background: var(--white, #fff);
+  margin-left: 10px;
+}
+.frame {
+  margin-left: 50px;
+}
+button {
+  width: 408px;
+  height: 48px;
+  flex-shrink: 0;
+  background: var(--grey-10001-d-1929, #191d29);
+  color: aliceblue;
+  cursor: pointer;
+}
+.error-message {
+  color: var(--red, #cb1923);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.resend-otp {
+  color: var(--red, #05af60);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

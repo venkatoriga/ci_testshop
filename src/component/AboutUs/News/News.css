@@ -1,0 +1,37 @@
+.card-text {
+    /* font-size: 15px;
+    font-weight: bold; */
+    color: black;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+hr {
+    width: 80px;
+    height: 2px;
+    background-color: "black"
+}
+
+
+.card-body:hover {
+    background-color: #9B9E51;
+    color: white !important;
+}
+
+.card-body:hover .card-text {
+    color: white !important;
+}
+
+.vectorblock {
+    margin-top: 0;
+}
+
+/* extra small device */
+@media (max-width: 575px) {
+    .newsinfo {
+        flex-wrap: wrap;
+    }
+}

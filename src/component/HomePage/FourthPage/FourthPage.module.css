@@ -1,0 +1,86 @@
+.fourthpagecontainer {
+  margin-top: 3rem;
+  display: flex;
+  padding-bottom: 3rem;
+  justify-content: space-around;
+}
+
+.fourthpagecontainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 384px;
+  height: 255px;
+  transition: transform 0.3s, width 0.3s, height 0.3s, background 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+
+}
+
+.fourthpagecontainer div:hover {
+  width: 600px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Green, #9B9E51);
+  box-shadow: 0px 32px 64px 0px rgba(101, 105, 4, 0.24);
+  transform: scale(1.05);
+}
+
+.fourthpagecontainer div .imageContainer {
+  display: block;
+  position: relative;
+  /* z-index: 2; */
+}
+
+.fourthpagecontainer div .imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fourthpagecontainer div .hoverContent {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.fourthpagecontainer div:hover .imageContainer {
+  display: none;
+}
+
+.fourthpagecontainer div:hover .hoverContent {
+  display: block;
+}
+
+.fourthpagecontainer div p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #2A2D07;
+}
+
+.imageContainer {
+  /* border:1px solid red; */
+  width: 384px;
+  height: 193px;
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.imageContainer img {
+  width: 384px;
+  height: 193px
+}
+
+.maindiv {
+  background: #F5F5F5;
+}
+

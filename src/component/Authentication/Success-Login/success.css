@@ -1,0 +1,31 @@
+.success-login {
+  display: inline-flex;
+  padding: 72px 36px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-radius: 4px;
+  background: var(--white, #ccc);
+  margin-top: 50px;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  /* height: 60vh; */
+}
+.contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contents img {
+  width: 4.3125rem;
+  height: 4.3125rem;
+  /* margin-left: 8rem; */
+  margin-bottom: 2rem;
+}
+.contents > p {
+  margin-left: 0px;
+}

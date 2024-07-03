@@ -1,0 +1,76 @@
+.eighthsection {
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin: auto;
+    /* margin-top: 5rem; */
+}
+
+.eighthsection-h1 {
+    width: 36.9375rem;
+    height: 3.75rem;
+    font-family: Poppins;
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 3.75rem;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.eightsection-para {
+    width: 42.9375rem;
+    height: 1.75rem;
+    opacity: 80%;
+    margin-bottom: 3.75rem;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.eightsection-list {
+    margin-bottom: 7.875rem;
+    padding: auto 0rem;
+    display: flex;
+     margin-left: 2rem;
+     font-size: 16px;
+}
+.svgcontent{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .eighthsection-h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .eightsection-para {
+        width: 80%;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+}
+
+/* Responsive styles for even smaller devices (e.g., mobile phones) */
+@media (max-width: 576px) {
+    .eighthsection-h1 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .eightsection-para {
+        width: 100%;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+   
+}
+

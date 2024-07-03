@@ -1,0 +1,46 @@
+.menubar-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlink{
+    text-decoration: none;
+    font-family: Poppins;
+    color: #2B2A2C;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem;
+letter-spacing: 0.5px;
+text-align: left;
+padding-top: 7px;
+/* background-color: aqua; */
+}
+.navlink:hover{
+    text-decoration: none;
+    color: #211E24;
+}
+.navlink.active{
+    margin-bottom: -0.5rem;
+    border-bottom: 4px solid #9DA14E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #211E24;
+    text-align: left;
+    
+}
+.custom-nav{
+    display:flex;
+    gap: 1rem;
+
+}
+    
+  
+
+.navlink:hover {
+    text-decoration: none;
+    color: #999e51;
+}

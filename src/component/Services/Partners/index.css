@@ -1,0 +1,110 @@
+/* .mod-partner">
+<div className="img-box */
+
+.Partners_layout{
+    padding: 0px 0;
+}
+
+.Partners_layout .mod-partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* background-color: red; */
+}
+
+.Partners_layout  .mod-partner .img-box{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 120px; */
+}
+.Partners_layout  .mod-partner .img-box img{
+    max-width: 100%;
+    height: auto;
+   
+}
+.Partners_layout  .mod-partner .title{
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%; /* 133.333% */
+    opacity: 0.8;
+}
+
+.Partners_layout .navigations{
+  display: none;
+
+}
+
+/* /// swiper  */
+
+
+
+@media screen and (max-width:992px) {
+    .Partners_layout .swiper {
+        padding-bottom: 50px;
+    }
+    
+    .Partners_layout .navigations{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: -24px;
+        width: 150px;
+        margin: auto;
+        margin-top: 30px;
+    
+    }
+    .Partners_layout .swiper-button-next{
+        width: 32px;
+        height: 32px;
+        position: relative;
+    
+    }
+    .Partners_layout .swiper-button-next::after{
+        position: absolute;
+        content: "";
+        top: 20px;
+        left: 0;
+        width: 32px;
+        height: 32px;
+        background-size: 32px;
+        background-image: url(/public/nextArrow.svg);
+    }
+    .Partners_layout .swiper-button-prev{
+        width: 32px;
+        height: 32px;
+        margin-right: 30px;
+        position: relative;
+    
+    }
+    .Partners_layout .swiper-button-prev::after{
+        position: absolute;
+        content: "";
+        top: 20px;
+        left: 0;
+        width: 32px;
+        height: 32px;
+        background-size: 32px;
+        background-image: url(/public/prevArrow.svg);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main-heading.typ-partner h1 {
+        font-size: 20px;
+        margin-bottom: 16px;
+        line-height: 140%;
+    }
+    .main-heading.typ-partner p {
+        font-size: 14px;
+        line-height: 170%;
+        margin-bottom: 24px;
+    }
+}   

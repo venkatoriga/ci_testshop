@@ -1,0 +1,46 @@
+.sold-wrap {display: flex;column-gap: 60px;padding: 25px 22px;border-radius: 8px;border: 1px solid #DDD;position: relative;}
+.sold-wrap:hover {background: #9B9E51;}
+.sold-wrap:hover .price-wrap .bottom .left-wrap,
+.sold-wrap:hover .price-wrap .bottom,
+.sold-wrap:hover .progress-name ,
+.sold-wrap:hover .left-wrap .name,
+.sold-wrap:hover .left-wrap .paperwork{color: #fff;}
+.sold-wrap:hover .bottom .bottom-left-wrap .heading-400-12-10{color: #fff;}
+.sold-wrap:hover .price-wrap .bottom svg path{fill:#fff;}
+.sold-wrap .img-wrap-1{width:100%;max-width:270px;height:200px;}
+.sold-wrap .img-wrap-1 .img-1 {width:100%;height:100%;object-fit:cover;}
+.sold-wrap .price-wrap {flex:1;}
+.sold-wrap .price-wrap .top {display: flex;justify-content: space-between;}
+.sold-wrap .price-wrap .top .left-wrap .name{margin:10px 0 0;}
+.sold-wrap .price-wrap .top .right{display:flex;flex-direction:column;}
+.sold-wrap .price-wrap .top .right .progress-name{margin:8px 0 0 -19px;}
+.sold-wrap .price-wrap .top .process-btn {border-radius:16px;padding:0 14px;height:35px;color:#fff;align-items: flex-start;background: #5B7282;border: none;}
+.sold-wrap .price-wrap .bottom {display: flex;align-items: center;justify-content: space-between;color: #211E24;margin: 30px 0 0;}
+.sold-wrap .price-wrap .bottom .advance-info{display: flex;align-items: center;gap: 10px;}
+.sold-wrap .price-wrap .bottom .advance-info .view-btn {height: 45px;background: #73509E;color: #fff;border-radius: 12px;padding: 0 30px;display: flex;align-items: center;border: none;}
+.sold-wrap .price-wrap .bottom .bottom-left-wrap{display: flex;flex-wrap: wrap;row-gap:10px;}
+.sold-wrap .price-wrap .bottom .bottom-left-wrap .info{width:calc(33.33% - 1px);display: flex;flex-direction: column;}
+
+@media(max-width:991px){
+    .sold-wrap {flex-direction:column;}
+    .sold-wrap .price-wrap{margin:25px 0 0;}
+    .sold-wrap .price-wrap .right svg{width:350px;}
+    .sold-wrap .progress-name{font-size:12px;margin:8px 0  0 -1px;}
+}
+@media(max-width:767px){
+    .sold-wrap {flex-direction:column;}
+    .sold-wrap .price-wrap .top{flex-direction: column;margin:15px 0 0;}
+    .sold-wrap .price-wrap .top .right{margin:15px 0 0;}
+    .sold-wrap .progress-name{font-size:12px;margin:8px 0  0 -1px !important;}
+    .sold-wrap .price-wrap .bottom .bottom-left-wrap .info{width:33.33%}
+    .sold-wrap .price-wrap .bottom {flex-direction:column;align-items:normal;row-gap:26px;}
+    .sold-wrap .price-wrap .bottom .advance-info{justify-content: flex-end;}
+    .sold-wrap .price-wrap .bottom .advance-info .view-btn {height:40px;padding: 0 28px;font-size:14px;}
+    .sold-wrap .img-wrap-1{max-width:300px;height:230px;align-self:center;}
+    .sold-wrap .img-wrap-1 .img-1 {width:100%;max-width:100%;height:100%;object-fit:cover;}
+}
+@media(max-width:576px){
+    .sold-wrap .price-wrap .right svg{width:300px;}
+    .sold-wrap .price-wrap .top .left-wrap .process-btn {max-width:100px;height: 28px;font-size:12px;}
+    .sold-wrap .price-wrap .bottom svg{width:20px;height:20px;}
+}

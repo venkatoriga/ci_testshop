@@ -1,0 +1,7 @@
+.top-wrap{display:flex;justify-content:space-between;column-gap:10px;}
+.top-wrap .form-group{position:relative;margin:0;}
+.top-wrap .form-group input{border:1px solid #AAA;padding:0 40px 0 15px;height:48px;}
+.top-wrap .form-group svg{position:absolute;right:10px;top:10px;}
+.name-wrap{padding:25px;border:1px solid #DDD;border-radius:8px;overflow:hidden;margin:20px 0 0;display:flex;column-gap:20px;justify-content:space-between;align-items:center;}
+.name-wrap .people{display:flex;column-gap:15px;align-items:center;}
+.name-wrap .people svg{cursor:pointer;}

@@ -1,0 +1,29 @@
+.reasons-wrap{display:flex;flex-direction:column;width:100%;row-gap:5px;margin-top:15px;}
+.reasons-wrap .reason{display:flex;padding:10px 20px;border:1px solid #DDD;cursor:pointer;border-radius:6px;position: relative;overflow: hidden;}
+.reasons-wrap .reason span{z-index:1;}
+.reasons-wrap .selected span{color:#fff;}
+
+.reasons-wrap .reason .tick{
+    display: none;
+}
+.reasons-wrap .selected .tick{
+    position: absolute;
+    right: -4px;
+    top: -1px;
+    display: block;
+}
+.reasons-wrap .selected .tick .main-tick{
+    position: absolute;
+    right: 4px;
+    top: -2px;
+}
+.reasons-wrap .selected:after{
+    content: "";
+    background: #9B9E51;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+}

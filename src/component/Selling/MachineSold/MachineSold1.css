@@ -1,0 +1,13 @@
+.name-wrap{padding:25px;border:1px solid #DDD;border-radius:8px;overflow:hidden;margin:20px 0 0;display:flex;column-gap:20px;justify-content:space-between;align-items:center;}
+.name-wrap .heading-wrap .processing-btn{border-radius: 16px;padding: 4px 14px;color:#211E24;background:  #DDD;cursor: pointer;}
+.name-wrap .heading-wrap .heading-600-24-14{display: flex;align-items: center;gap:10px;}
+.name-wrap .contact-btn{height: 54px;background: #73509E;color: #fff;border-radius: 12px;padding: 0 30px;border:none;}
+.paymet-box-wrap{display:flex;column-gap:24px;}
+.paymet-box-wrap .box-item{display:flex;flex-direction:column;row-gap:24px;}
+.paymet-box-wrap .box-item .amount-info{display:flex;flex-direction:column;row-gap:24px;padding:25px;border-radius: 8px;background:#fff;border:1px solid #DDD;}
+.paymet-box-wrap .box-item .top-wrap{display:flex;justify-content:space-between;column-gap:10px;align-items: flex-start;}
+.paymet-box-wrap .box-item .top-wrap .icon{cursor:pointer;}
+.paymet-box-wrap .box-item .top-wrap .name{display: flex;flex-direction: column;row-gap:8px;}
+.paymet-box-wrap .box-item .botttom{display: flex;justify-content: space-between;}
+.paymet-box-wrap .box-item .botttom .bottom-info{display: flex;flex-direction: column;row-gap:8px;}
+.paymet-box-wrap .box-item-1{display: flex;flex-direction: column;row-gap:24px;border-radius: 8px;background:#fff;border:1px solid #DDD;padding: 25px;}

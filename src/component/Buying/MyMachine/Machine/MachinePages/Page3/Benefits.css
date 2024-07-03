@@ -1,0 +1,10 @@
+.benefits .head{display:flex;column-gap:20px;justify-content:space-between;}
+.benefits .head .box-btn{background:none;border:none;}
+.benefits .benefits-content{background:#F9F9F9;margin:50px 0 0;border-radius:12px;padding:60px 40px;display:flex;flex-wrap:wrap;}
+.benefits .benefits-content .item{width:calc(25%);}
+.benefits .benefits-content .item .circle{width:140px;height:140px;overflow:hidden;border-radius:100%;border:3px solid #DDD;margin:0 auto 25px;position:relative;}
+.benefits .benefits-content .item .circle:after{content:"";width:10px;background:red;position:absolute;}
+.benefits .benefits-content .item .score-wrap{position:absolute;top:44px;right:0;left:0;}
+.benefits .benefits-content .item .title{max-width:140px;margin:0 auto;font-size:16px;position:relative;}
+.benefits .benefits-content .item .title svg{position:absolute;top:0;right:-26px;cursor:pointer;}
+

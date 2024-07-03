@@ -1,0 +1,27 @@
+.pninthbar::after{
+    content: "";
+    background: #735197;
+    width: 80px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: calc(50% - 40px);
+    margin: 7px 0;
+}
+.pninthbar{
+    position: relative;
+}
+ 
+  .marquee_image{
+height:200px;
+width: 408px;
+padding:0px 10px;
+  }
+ 
+  @media (max-width:576px){
+    .marquee_image{
+      height:153px ;
+      width: 241px;
+      padding:0px 10px;
+    }
+  }

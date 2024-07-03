@@ -1,0 +1,35 @@
+/* SearchBox.css */
+
+.search1-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .search1-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 60%;
+  }
+  .search1-icon-left{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .search1-box input {
+    padding: 10px 0px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 600px) {
+    .search1-icon {
+      left: 5px;
+    }
+  }

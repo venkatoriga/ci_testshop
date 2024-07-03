@@ -1,0 +1,5 @@
+.speak-expert-wrap{display:flex;align-items:center;column-gap:100px;margin:0 0 100px;}
+.speak-expert-wrap .image-wrap{flex:1;}
+.speak-expert-wrap .image-wrap img{width:100%;}
+.speak-expert-wrap .speak-content-wrap{flex:1;}
+.speak-expert-wrap .speak-content-wrap .box-item-btn{height:48px;background:#73509E;color:#fff;border-radius:12px;border:none;width:max-content;width:170px;margin:60px 0 0;}

@@ -1,0 +1,116 @@
+.bs-footer{
+    padding-top: 100px;
+    padding-bottom: 3rem;
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bs-footer .sticky-logo{
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.bs-footer .foolter-logo{
+    max-width: 140px;
+    margin-bottom: 24px;
+    margin-top: -50px;
+}
+.bs-footer .footer-desc{
+    color: #211E24;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 200%; /* 200% */
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+
+.bs-footer .footer-links.socialmedia p{
+    opacity: 1;
+}
+.bs-footer .footer-links h3{
+    color: #2A2D07;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 180%; /* 28.8px */
+    margin-bottom: 16px;
+}
+.bs-footer .footer-links a:hover{
+    text-decoration: none;
+}
+.bs-footer .footer-links p{
+    color: #211E24;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%; /* 28.8px */
+    margin-bottom: 12px;
+    opacity: 0.8;
+}
+
+.bs-footer .footer-icons{
+    width: 20px;
+    height: 20px;
+}
+
+.bs-footer .mod-social-media{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.bs-footer .mod-social-media img{
+    margin-right: 8px;
+}
+.bs-footer .mod-social-media p{
+    margin-bottom: 0;
+}
+.bs-footer .social-media-group{
+    max-width: 194px;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* .bs-footer .row:nth-child() */
+
+/* ---------------------bs-footer-bottom --------------------- */
+.bs-footer-bottom{
+    background-color: #999E51;
+    padding: 15px 0;
+    
+}
+
+.bs-footer-bottom .in-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bs-footer-bottom .copy-right{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.857px;
+    margin-bottom: 0;
+}
+.bs-footer-bottom .privacy-policy{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.857px;
+    margin-bottom: 0;
+}
+.bs-footer-bottom .logo-box{
+    display: flex;
+    align-items: center;
+}
+.bs-footer-bottom .logo-box p{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 110%;
+    margin-bottom: 0;
+    margin-right: 8px;
+}
+.bs-footer-bottom .logo-box img{
+    max-width: 91px;
+}

@@ -1,0 +1,100 @@
+.navcontainer{
+    display: flex;
+    padding-top: .8rem;
+    justify-content:space-between;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    
+}
+.navcontainer .user {
+    min-width: 200px;
+    padding-right: 12px;
+}
+.logo{
+    padding-left: 2px!important;
+}
+.lang-a>a{
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.lang-a a:hover{
+    color: #999e51 !important;
+}
+.navbar{
+    padding: 0.5rem 0 !important;
+}
+
+.logo img{
+    height: auto;
+    width: 5rem;
+    margin-left: 0;
+}
+.user{
+display: flex;
+justify-content: flex-end;
+}
+.nav-col{
+    padding: 0!important;
+}
+
+.top-banner {
+    text-align: center;
+    width: 100%;
+
+    padding: 8px 0;
+    background-color: #735197;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 10;
+}
+
+.phone-link {
+    color: #ffffff; /* Inherits the white color for the text */
+    text-decoration: none; /* Removes underline from the link */
+    
+    padding: 5px 10px; /* Padding for better clickability */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.phone-link:hover, .phone-link:focus {
+    background-color: rgba(255, 255, 255, 0.3); /* Lighter background on hover/focus for feedback */
+    outline: none; /* Removes outline on focus, can be customized if needed for accessibility */
+}
+/* @media screen and (min-width: 992px){
+    .mid-logo{
+        display: block;
+        width: 64px;
+        height: auto;
+    }
+} */
+
+/* @media screen and (min-width: 320px) and (max-width: 480px) {
+    .navcontainer {
+        position: relative;
+    }
+    .navcontainer img {
+        position: absolute;
+        left: -30%;
+    }
+    .navbar-light .navbar-toggler{
+        border: none;
+    }
+    .user{
+        position: relative; 
+    }
+    .user .typ-cart-btn{
+        position: absolute;
+        left: 0;
+        top: 10px;
+    }
+    .menubar-container{
+        padding: 10px 0;
+    }
+    
+} */

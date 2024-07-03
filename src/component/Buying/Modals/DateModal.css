@@ -1,0 +1,15 @@
+.bi-popup-wrap .inner .heading-600-20{margin: 0 0 10px;}
+.bi-popup-wrap .inner .heading-400-14-12{opacity:.8;}
+.bi-popup-wrap .inner .field-group{max-width: 600px;width:100%;padding-top: 15px;margin:15px 0 0;position: relative;}
+.bi-popup-wrap .inner .field-group .input-field{width: 100%;outline: 0;border: 1px solid #AAA; padding: 10px;background: transparent;}
+.bi-popup-wrap .inner .field-group .calendar-icon{position: absolute;right:4px;top:25px;background: #fff;}
+.bi-popup-wrap .inner .field-group .input-label{display:block;position:absolute;top:15px;left:10px;background: #fff;color:#211E24;padding:5px;opacity: 1;}
+.bi-popup-wrap .inner .field-group .selected-date{display: flex;flex-wrap: wrap;}
+.bi-popup-wrap .inner .field-group .date{display:flex;flex-wrap:wrap;}
+.bi-popup-wrap .inner .schedule-btn{flex:54px 0 0;background:#73509E;color:#fff;border-radius:12px;border:none;width:max-content;padding:0 40px;margin:30px auto 0;}
+@media(max-width:767px){
+    .bi-popup-wrap .inner .schedule-btn{flex:50px 0 0;padding:0 30px;}
+}
+@media(max-width:576px){
+    .bi-popup-wrap .inner .schedule-btn{flex:45px 0 0;padding:0 30px;}
+}

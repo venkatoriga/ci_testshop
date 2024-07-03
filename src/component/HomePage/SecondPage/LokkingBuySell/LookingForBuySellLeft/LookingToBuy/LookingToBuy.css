@@ -1,0 +1,40 @@
+.lookingtobuy{
+    margin-top: 2rem;
+}
+/* .lookingtobuy-heading{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.9375rem;
+    letter-spacing: 0em;
+    text-align: left;
+    
+} */
+/* .lookingtobuy-message{
+    opacity: 60%;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 0em;
+    text-align: left;
+    
+} */
+.buttonAndLearnBox{
+   margin-top: 6.625rem;
+   /* width: 17.68rem; */
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+/* .buttonAndLearnBox p{
+    margin: 0;
+    padding: 0;
+font-family: Poppins;
+font-size: 0.875rem;
+font-weight: 600;
+line-height: 1.5rem;
+letter-spacing: 0em;
+text-align: left;
+
+} */

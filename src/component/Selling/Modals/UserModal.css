@@ -1,0 +1,4 @@
+.field-group-wrap{display:flex;align-items:center;column-gap:20px;width:100%;}
+@media(max-width:767px){
+    .field-group-wrap{flex-direction:column;}
+}

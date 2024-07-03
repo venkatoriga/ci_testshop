@@ -1,0 +1,65 @@
+.machine-location-wrap{display:flex;overflow: hidden;}
+.machine-location-wrap .btn-wrap{flex:0 0 100px;}
+.machine-location-wrap .content-wrap{flex:1;background:#F9F9F9;padding:50px 50px 50px;display: flex;flex-direction: column;text-align: center;}
+.machine-location-wrap .content-wrap .address-top-wrap{display: flex;align-items:center;column-gap:5px;justify-content: center;}
+.machine-location-wrap .content-wrap .dilevery-address,
+.machine-location-wrap .content-wrap .order-sumary{color:#211E24;}
+.machine-location-wrap .content-wrap .dilevery-address-1{position: relative;margin: 0 8px 0 0;}
+.machine-location-wrap .content-wrap .order-sumary-2{position:relative;margin: 0 8px 0 0;}
+.machine-location-wrap .content-wrap .order-sumary-2::before{content:"2";position: absolute;top:3%;left:36%;color: #fff;}
+.machine-location-wrap .content-wrap .bottom-wrap{margin: 40px 0 0;}
+.machine-location-wrap .bottom-wrap{flex:1;background:#F9F9F9;padding:50px;display: flex;flex-direction: column;text-align: center;}
+.machine-location-wrap .bottom-wrap .head{text-align: left;color:#211E24;}
+.machine-location-wrap .bottom-wrap .select-heading{text-align:left;color:#211E24;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap{position:relative;padding:0;border-bottom:1px solid #AAA;display: flex;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap:last-child{border:none;}
+.machine-location-wrap .bottom-wrap .wrap-2{padding: 48px 0 0;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .left-wrap{text-align:left;width:40%;margin:24px 0;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .left-wrap .heading{color:#211E24;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .left-wrap .text{color:#211E24;opacity: 0.6;max-width:280px;margin:10px 0;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add{width:60%;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .field-group-wrap-add .input-group-wrap-add .form-group-add{position:relative;padding:30px 0 0;width:100%;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .field-group-wrap-add .input-group-wrap-add{display: flex;gap:20px;}
+.machine-location-wrap  .machine-add-btns{height:48px;padding:0 30px;background: #73509E;color: #fff;border-radius: 12px;border: none;margin:45px 0 0;}
+.machine-location-wrap .machine-btn-wrap{text-align:right;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .text{text-align:right;margin:5px 0 0;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .location-icon{position: absolute;right:7px;top:36px;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-field-add ::placeholder{opacity: 0.6;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add{position:relative;padding:30px 0 0;width:100%;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-field-add{width:100%;border:1px solid #AAA;padding:10px 15px;background:transparent;transition:0.3s ease;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-field-add.has-input-error{border-color:#fe0102 !important;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-label-add{display:block;position:absolute;top:30px;left:15px;padding:5px 10px;transition:0.3s ease;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-label-add::after{content:"";position:absolute;left:0;top:15px;right:0;border:4px solid #F9F9F9 !important;z-index:-1;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add sup{top:1px;color:#fe0102;font-size:17px;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-field-add::placeholder{color:transparent;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-field-add:placeholder-shown ~ .form-label-add{top:52px;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-field-add:focus{border:1px solid #73509E;}
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-field-add:focus ~ .form-label-add{display:block;position:absolute;top:30px;padding:5px 10px;color:#73509E;}
+
+.machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add .input-group-wrap-add .form-group-add .form-field-add:focus ~ .form-label-add::after{content:"";position:absolute;left:0;top:15px;right:0;border:4px solid #F9F9F9 !important;z-index:-1;}
+
+@media(max-width:991px){
+    .machine-location-wrap .content-wrap{padding:30px;}
+    .machine-location-wrap{flex-direction:column;row-gap:20px;}
+    .machine-location-wrap .btn-wrap{flex:1;}
+    .machine-location-wrap .content-wrap .bottom-wrap{margin:20px 0 0;padding:20px;}
+}
+@media(max-width:767px){
+    .machine-location-wrap .bottom-wrap .Withdraw-wrap{flex-direction:column;}
+    .machine-location-wrap .bottom-wrap .Withdraw-wrap .left-wrap{width:100%;margin:10px 0;}
+    .machine-location-wrap .bottom-wrap .Withdraw-wrap .right-wrap-add{width:100%;}
+    .machine-location-wrap .bottom-wrap .Withdraw-wrap .left-wrap .text{max-width:100%;}
+    .machine-location-wrap .content-wrap .address-top-wrap .line{display:none;}
+    .machine-location-wrap .bottom-wrap .select-heading{font-size:16px;}
+    .machine-location-wrap .bottom-wrap .Withdraw-wrap .left-wrap .heading{font-size:16px;}
+    .machine-location-wrap .bottom-wrap .Withdraw-wrap .left-wrap .text{font-size:14px;margin:5px 0 0;}
+    .machine-location-wrap .machine-add-btns{margin: 20px 0 0;height:45px;font-size:14px;padding:0 20px;}
+    .machine-location-wrap .content-wrap{padding:20px;}
+    .machine-location-wrap .content-wrap .dilevery-address, .machine-location-wrap .content-wrap .order-sumary{font-size:13px;}
+    .machine-location-wrap .content-wrap .dilevery-address-1 svg{width:20px;height:20px;}
+    .machine-location-wrap .content-wrap .order-sumary-2{font-size:13px;}
+    .machine-location-wrap .content-wrap .order-sumary-2 svg{width:20px;height:20px;}
+    .machine-location-wrap .content-wrap .order-sumary-2::before{top:-2px;}
+    .machine-location-wrap .content-wrap .bottom-wrap{padding:0;}
+    .machine-location-wrap .content-wrap .address-top-wrap{justify-content:space-around;}
+}

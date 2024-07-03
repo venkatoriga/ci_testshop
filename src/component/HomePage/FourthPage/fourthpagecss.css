@@ -1,0 +1,54 @@
+.fourthImg {
+    /* width: 584px; */
+    height: 193px;
+}
+
+.fouthContainer {
+    overflow: hidden;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.headingpara {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+.fourthHoverEffect{
+    background-color: #9B9E51;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    transition: all 0.1s; */
+
+}
+
+.bar2Fourth::after {
+    content: "";
+    background-color: white;
+    display: block;
+    width: 83px;
+    height: 2px;
+    margin: 5px 0;
+  }
+.hoverEffectImgdiv{
+    height: 100%;
+    width:100%;
+}
+.fouthBar::after{
+    background-color: #fff !important;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .svgsection svg {
+        width: 35px !important;
+    }
+    .hoverEffectImgdiv{
+        height: 197.601px !important;
+    }
+}

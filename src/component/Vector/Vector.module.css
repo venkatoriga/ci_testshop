@@ -1,0 +1,6 @@
+.vector{
+    width: 7.75rem;
+    height: 2.875rem;
+    display: flex;
+    justify-content: space-between;
+}

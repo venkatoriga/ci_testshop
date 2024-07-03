@@ -1,0 +1,16 @@
+.imagewithtpb:hover p,
+.imagewithtpb:hover h1 {
+    color: #fff;
+}
+
+.imagewithtpb:hover {
+    border-radius: 8px;
+    background: #9B9E51;
+    color: #fff;
+    box-shadow: 0px 32px 64px 0px rgba(101, 105, 4, 0.24);
+}
+
+.homeCardBorder {
+    border-right: 1px solid rgba(115, 80, 158,0.1);
+    border-left: 1px solid rgba(115, 80, 158,0.1);
+}

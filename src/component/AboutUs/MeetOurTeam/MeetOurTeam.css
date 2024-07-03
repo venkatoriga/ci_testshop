@@ -1,0 +1,47 @@
+.teamtextcontent {
+    padding-bottom: 200px !important;
+}
+
+
+/* extra small device */
+@media (max-width: 575px) {
+    .meetourteam_h1 {
+        color: #211E24;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold ;
+        line-height: 28px;
+        /* 140% */
+    }
+
+    .teamtextcontent {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        margin-bottom: 20px;
+
+    }
+
+    .meetourteam_h2 {
+        font-size: 20px !important;
+    }
+
+    .meetourteamsvg {
+        height: 36px !important;
+        width: 36px !important;
+    }
+}
+
+/* small screen */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+/* medium screen */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* large screen  */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* extra large */
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+/* extra extra large */
+@media (min-width: 1400px) {}

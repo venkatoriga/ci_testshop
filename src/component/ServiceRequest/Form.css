@@ -1,0 +1,74 @@
+.input-container {
+  position: relative;
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+label {
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: top 0.3s, font-size 0.3s;
+  font-size: 16px;
+}
+
+.input-label-top {
+  top: 0;
+  font-size: 12px;
+  background-color: #FFF;
+}
+
+/* Additional styles you can apply to the input fields, e.g., focus styles */
+input:focus {
+  outline: none;
+  border: none
+}
+
+.contactusForm {
+  position: relative;
+  top: -25%;
+  right: 0;
+}
+
+.contactContainer{
+  padding: 3rem !important;
+  margin: 0 !important;
+}
+
+.css-yy8y9l-JoyTextarea-root{
+  border : 1px solid #AAA !important;
+  background-color: #FFF !important;
+}
+ 
+.css-sws92j-JoyTextarea-textarea {
+color: #211E24 !important;
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+  .contactusForm {
+    position: static !important;
+    top: 0;
+    right: 0;
+  }
+  .contactContainer{
+    padding: 1rem !important;
+    margin: 0 !important;
+  }
+  label {
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: top 0.3s, font-size 0.3s;
+    font-size: 12px;
+  }
+}

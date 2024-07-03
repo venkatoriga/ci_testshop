@@ -1,0 +1,10 @@
+/* extra small device */
+@media (max-width: 575px) {
+    .founder-card-1 {
+        flex-wrap: wrap;
+    }
+
+    .flex-child {
+        width: 100%;
+    }
+}

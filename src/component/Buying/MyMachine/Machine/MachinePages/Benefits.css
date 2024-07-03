@@ -1,0 +1,6 @@
+.benefits .head{display:flex;column-gap:20px;justify-content:space-between;}
+.benefits .head .box-btn{background:none;border:none;}
+.benefits .benefits-content-2{background:#F9F9F9;margin:50px 0 0;border-radius:12px;padding:60px 40px;display:flex;column-gap:30px;}
+.benefits .benefits-content-2 .item{flex:1;}
+.benefits .benefits-content-2 .item .title{display:flex;align-items:center;justify-content:center;width:52px;height:52px;overflow:hidden;background:#E7E7E7;border-radius:100%;margin:0 0 20px;}
+.benefits .benefits-content-2 .item .content-section{display:flex;flex-direction:column;row-gap:5px;}

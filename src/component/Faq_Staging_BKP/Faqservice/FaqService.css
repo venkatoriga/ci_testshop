@@ -1,0 +1,36 @@
+.faqservices {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 8px;
+    width: 180px;
+    height: 10rem;
+}
+
+.faqservices.hovered {
+    transition: all 0.5s ease;
+    background-color: #9B9E51;
+}
+
+.faqservices img {
+    margin-top: 2rem;
+    width: 3.625rem;
+    height: 3.625rem;
+}
+
+
+.faqservice-title.hovered {
+    color: #FFFFFF;
+}
+@media (max-width:576px){
+    .faqservices {
+        background-color: #FFFFFF;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+        width: 154px;
+   
+    }
+}

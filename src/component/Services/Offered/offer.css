@@ -1,0 +1,73 @@
+.lyt-offer{
+    padding: 120px 0;
+    padding-bottom: 0;
+}
+
+.lyt-offer .topContent {
+    max-width: 180px;
+    margin: auto;
+}
+.mod-offer h1{
+    color: #211E24;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 180%; /* 187.5% */
+    margin-bottom: 10px;
+}
+.mod-offer p{
+    color: #2B2A2C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%; /* 175% */
+    margin-bottom: 50px;
+    text-align: left;
+}
+.lyt-offer .row{
+    align-items: center;
+    margin-bottom: 100px;
+}
+.lyt-offer .row:last-child{
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+    .lyt-offer{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .lyt-offer .row:nth-child(even){
+        flex-direction: column-reverse;
+    }
+    .lyt-offer img{
+        margin-bottom: 30px;
+    }
+    .lyt-offer .mod-offer .gh{
+        margin-left: auto;
+        margin: 0 auto;
+    }
+    .lyt-offer .row{
+        margin-bottom: 50px;
+    }
+   
+}
+
+@media (max-width: 767px) {
+    .lyt-offer .main-heading{
+        margin-bottom: 24px;
+    }
+    .lyt-offer .row{
+        margin-bottom: 60px;
+    }
+    .lyt-offer .row:first-child{
+        align-items: center;
+        margin-bottom: 00px;
+    }
+    .mod-offer h1{
+        font-size: 20px;
+        line-height: 140%;
+    }
+    .mod-offer p{
+        font-size: 14px;
+        line-height: 170%;
+    }
+}

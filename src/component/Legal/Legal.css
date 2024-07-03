@@ -1,0 +1,42 @@
+.legalfluidcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.routescontainer {
+    margin-top: 2rem;
+    padding-bottom: 5px;
+    margin-bottom: 2rem !important;
+}
+
+.routescontainer-navlink,
+.routescontainer-navlink:hover {
+    text-decoration: none;
+    margin-right: 0.8rem;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #211E24;
+    opacity: 60%;
+    padding-bottom: 5px;
+}
+
+.routescontainer-navlink.active {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    opacity: 100%;
+    margin-bottom: 3px;
+    border-bottom: 3px solid #9BA24C;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .routescontainer-navlink,
+    .routescontainer-navlink:hover {
+        display: block;
+    }
+}

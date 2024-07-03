@@ -1,0 +1,36 @@
+
+.legaltopcontainer{
+    margin-top: 1rem;
+    padding-left: 1.8rem!important;
+    display: flex;
+    align-items: center;
+}
+.legaltopcontainer div{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 0;
+    margin: 0;  
+}
+.legaltopcontainer div p{ 
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 5px;
+}
+.legalhome{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+color:#66718C;
+}
+.legalourpolicy{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+color:#202532;
+}

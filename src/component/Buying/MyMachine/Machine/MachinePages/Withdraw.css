@@ -1,0 +1,5 @@
+.withdraw-head-wrap{width:100%;}
+.why-withdraw{width:100%;}
+.why-withdraw .reason{max-width:100% !important;}
+.withdraw{background:#f5f5f5;padding: 25px;border-radius: 12px;display: flex;align-items: center;column-gap: 20px;justify-content: space-between;margin:0 0 80px;}
+.withdraw .withdraw-btn{height:54px;padding:0 30px;background:#73509E;border-radius:12px;border:none;color:#fff;}

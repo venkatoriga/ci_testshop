@@ -1,0 +1,177 @@
+.button-purple{
+    width: 11.25rem;
+    height: 3.375rem;
+    padding: 8px, 0px, 8px, 0px;
+    border-radius: 12px;
+    background: #73509E;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6875rem;
+    letter-spacing: 0em;
+    border: none;
+    color: white;
+}
+.button{
+width: 180px;
+height: 3.375rem;
+padding: 8px, 0px, 8px, 0px;
+border-radius: 12px;
+ background: #73509E;
+ font-size: 1rem;
+ font-weight: 600;
+ line-height: 1.6875rem;
+ letter-spacing: 0em;
+ border: none;
+ color: white;
+}
+.button-white{
+    width: 180px;
+    height: 3.375rem;
+    padding: 8px, 0px, 8px, 0px;
+    border-radius: 12px;
+     background: #FFFFFF;
+     font-size: 1rem;
+     font-weight: 600;
+     line-height: 1.6875rem;
+     letter-spacing: 0em;
+     border: none;
+     color: #73509E;
+    }
+.big-btn{
+width: 282px;
+height: 54px;
+padding: 8px 0px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius:12px;
+border: none;
+background-color: #73509E;
+color: #FFFFFF;
+}
+.big-btn-outline{
+    width: 282px;
+    height: 54px;
+    padding: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius:12px;
+    border: 2px solid #73509E;
+    background-color: #FFFFFF;
+    color:  #73509E;
+}
+.button-outline{
+        width: 11.20rem;
+    height: 3.375rem;
+    padding: 8px 0px 8px 0px;
+    border-radius: 12px;
+     background: #FFF;
+     font-size: 1rem;
+     font-weight: 600;
+     line-height: 1.6875rem;
+     letter-spacing: 0em;
+     border: 2px solid #73509E;
+     color:#73509E;
+     }
+.button-shipped{
+    width:83px;
+height:30px;
+padding: 6px, 16px, 6px, 16px;
+border-radius: 16px;
+background-color:#186ADE;
+color:white;
+border: none;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+
+}
+.button-active{
+    width: 70px;
+    height:30px;
+    padding: 6px, 16px, 6px, 16px;
+    border-radius: 16px;
+    gap: 10px;
+    border: none;
+    background-color: #038510;
+    color: #FFFFFF;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+}
+.buy-button{
+width:54px;
+height: 54px;
+padding: 8px, 0px, 8px, 0px;
+border-radius: 12px;
+border: 2px;
+gap: 10px;
+border: 2px solid #73509E;
+color: #73509E;
+background-color: #FFFFFF;
+}
+.viewallbtn{
+    height: 102px;
+    width: 102px;
+    border-radius: 50%;
+    background: #73509E;
+    color: white;
+font-size: 20px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0em;
+border: none;
+opacity: 80%;
+
+}
+@media (max-width: 992px) {
+    .lyt-offer .button{
+        margin-left: auto;
+        display: block;
+        max-width: 180px;
+        min-width: 180px;
+        font-size: 14px;
+        height: 44px;
+    }
+}
+@media (max-width: 767px) {
+    .lyt-offer .button{
+        margin-left: auto;
+        display: block;
+    }
+}
+@media (max-width:576px){
+    .button,.button-white{
+        width: 138px;
+    height: 40px;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+
+    }
+    .button-outline{
+        width: 138px;
+        height: 40px;
+        padding: 8px, 0px, 8px, 0px;
+        border-radius: 12px;
+         font-size: 14px;
+         font-weight: 600;
+         line-height: 24px;
+         letter-spacing: 0em;     
+    }
+}
+@media (max-width:360px){
+    .button{
+        width: 120px;
+
+    }
+    .button-outline{
+        width: 120px;     
+    }
+}
+
+

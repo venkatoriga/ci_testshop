@@ -1,0 +1,12 @@
+.listofservice-maindiv{
+    margin-top: 2rem;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .listofservice-maindiv{
+        flex-wrap: wrap;
+    }
+}

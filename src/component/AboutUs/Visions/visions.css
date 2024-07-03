@@ -1,0 +1,12 @@
+/* extra small device */
+.visions-padding{
+    padding: 0px !important;
+}
+@media (max-width: 575px) {
+    .ourvisionrow {
+        flex-direction: column-reverse;
+    }
+    .visions-padding{
+        padding: 5px !important;
+    }
+}

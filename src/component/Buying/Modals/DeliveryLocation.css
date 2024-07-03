@@ -1,0 +1,8 @@
+.bi-popup-wrap .inner .heading-400-16-14{color:#211E24;opacity:0.8;margin:0 0 20px;}
+.bi-popup-wrap .inner .form-group{position:relative;width:100%;}
+.bi-popup-wrap .inner .form-group input{border:1px solid #AAA;padding:0 40px 0 15px;height:48px;}
+.bi-popup-wrap .inner .form-group svg{position:absolute;right:10px;top:10px;}
+.bi-popup-wrap .inner .popup-svg{display:flex;}
+.bi-popup-wrap .inner .popup-svg svg{margin:0 auto;flex:190px 0 0;}
+.bi-popup-wrap .inner .text{text-align:right;width:100%;}
+.bi-popup-wrap .inner .location-btn{padding:14px 40px;background:#73509E;color:#fff;border-radius:12px;border:none;width:max-content;margin:30px auto 0;}

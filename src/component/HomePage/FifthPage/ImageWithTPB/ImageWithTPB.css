@@ -1,0 +1,44 @@
+.imagewithtpb {
+    max-width: 23rem !important;
+    margin: 0 !important;
+    padding: 1rem 1rem !important;
+    transition: all 0.3s;
+}
+
+.imagewithtpb.hovered {
+    background-color: #9B9E51;
+}
+
+.imagewithtpb h1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #211E24;
+}
+
+.imagewithtpb.hovered h1,
+.imagewithtpb.hovered p {
+    color: #FFFFFF;
+}
+
+.imagewithtpb:hover .bar::before {
+    background-color: #FFFFFF;
+}
+
+.imagewithtpb p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #211E24;
+}
+
+/* .imagewithtpb img {
+    max-width: 19rem;
+    max-height: auto;
+} */

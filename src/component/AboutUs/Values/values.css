@@ -1,0 +1,35 @@
+.values-bottom-section--card--img {
+    background-color: #e7e7e7;
+}
+
+
+
+
+/* extra small device */
+@media (max-width: 575px) {
+    .values-card--img svg {
+        height: 60px !important;
+        width: 60px !important;
+    }
+
+
+    .flex-child {
+        width: 100%;
+    }
+
+    #logosvg {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    .logosvg1 {
+        width: 36px !important;
+        height: 36px !important;
+    }
+
+    .values-card-h2 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+}

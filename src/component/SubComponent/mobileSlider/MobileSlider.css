@@ -1,0 +1,74 @@
+.homeImgDiv {
+    position: relative;
+    left: -40%;
+  }
+  
+  .viewbtn {
+    background-color: rgba(115, 80, 158, 0.8);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 0;
+    font-size: 20px;
+    color: #f5f5f5;
+    position: absolute;
+    top: 55%;
+    right: -9%;
+    z-index: 100;
+  }
+  
+  .custom-arrow-center {
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid #211e24;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    bottom: -12%;
+    cursor: pointer;
+  }
+  /* Tanmay code */
+  .lyt-section {
+    padding: 90px 0;
+  }
+  
+  .custom-next-arrow-center {
+    left: calc(40% - 10px); /* You can adjust the pixel value as needed */
+  }
+  
+  .custom-prev-arrow-center {
+    z-index: 1;
+    left: calc(50% + 10px); /* You can adjust the pixel value as needed */
+  }
+  
+  @media (max-width:992px){
+    .viewbtn,
+    .custom-arrow {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .homeImgDiv {
+      position: static;
+      left: 0;
+    }
+  
+    .homeImg {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  
+   
+  }
+  
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    .homeImgDiv {
+      position: static;
+      left: 0;
+    }
+  
+    .homeImg {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }

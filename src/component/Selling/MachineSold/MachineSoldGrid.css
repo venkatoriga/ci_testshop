@@ -1,0 +1,26 @@
+.machine-sold-grid-wrap{display:flex;flex-wrap:wrap;row-gap:50px;margin:40px 0 0;}
+.machine-sold-grid-wrap .item{width:calc(33.33%);padding:25px;transition:.2s;border-right:1px solid rgba(115, 80, 158, 0.10);}
+.machine-sold-grid-wrap .item .sale-details{position: relative;}
+.machine-sold-grid-wrap .item .sale-details::before{content:"";position: absolute;width:25%;height:2%;background:#c5c5c5;bottom:0;}
+.machine-sold-grid-wrap .item .image-wrap{height:230px;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:20px 0;}
+.machine-sold-grid-wrap .item .image-wrap .product-img{display:flex;}
+.machine-sold-grid-wrap .item .label-item{font-style:14px;border-radius:16px;padding:4px 14px;color:#fff;align-items:flex-start;background: #5B7282;border:none;width:max-content;margin:0 0 15px;}
+.machine-sold-grid-wrap .item .machine-info{margin:15px 0 0;justify-content:space-between;}
+.machine-sold-grid-wrap .item .btns-wrap-view{display:flex;justify-content:flex-start;column-gap:12px;margin:30px 0 0;}
+.machine-sold-grid-wrap .item .btns-wrap-view .item-btn{height:54px;padding:0 30px;background:#73509E;border-radius:12px;border:none;color:#fff;}
+.machine-sold-grid-wrap .item:hover{background:#9B9E51;color:#fff;}
+.machine-sold-grid-wrap .item:hover .light-txt{color:#fff}
+
+@media(max-width:991px){
+   .machine-sold-grid-wrap .item{width:calc(50%);padding:25px;}
+}
+@media(max-width:767px){
+   .machine-sold-grid-wrap .item{width:100%;padding:0;padding:25px;}
+   .machine-sold-grid-wrap .item .machine-info{justify-content: space-between;}
+   .machine-sold-grid-wrap .item .sch-view{margin:0 !important;position:absolute;top: 690px;left:228px;font-size:14px;}
+   .machine-sold-grid-wrap .item .btns-wrap-view .item-btn{position: relative;height:45px;padding:0 30px;font-size:14px;}
+}
+@media(max-width:479px){
+   .machine-sold-grid-wrap .item .label-item{font-size:12px;border-radius:16px;padding:4px 14px;color:#211E24;align-items:flex-start;background:#F5C518;border:none;width:max-content;margin:0 0 15px;}
+   .machine-sold-grid-wrap .item .btns-wrap-view .item-btn{height:42px;padding:0 28px}
+  }

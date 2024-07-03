@@ -1,0 +1,27 @@
+.token-wrap{display:flex;}
+.token-wrap .btn-wrap{flex:0 0 100px;}
+.token-wrap .content-wrap{flex:1;background:#F9F9F9;padding:50px 50px 150px;}
+.token-wrap .content-wrap .body-wrap{position:relative;}
+.token-wrap .content-wrap .body-wrap .product-wrap{display:flex;align-items:center;column-gap:40px;}
+.token-wrap .content-wrap .body-wrap .product-wrap .left-wrap{flex:1;}
+.token-wrap .content-wrap .body-wrap .product-wrap .left-wrap .product-img{display:flex;width:100%;max-width:200px;height:160px;object-fit:cover;margin:40px 0 24px;}
+.token-wrap .content-wrap .body-wrap .product-wrap .left-wrap .title{position:relative;margin:0 0 10px;padding:0 0 5px;}
+.token-wrap .content-wrap .body-wrap .product-wrap .left-wrap .title:after{content:"";position:absolute;height:2px;background:#000;width:48px;bottom:0;left:0;}
+.token-wrap .content-wrap .body-wrap .product-wrap .left-wrap .price-wrap{width:100%;max-width:300px;display:flex;flex-direction:column;row-gap:5px;}
+.token-wrap .content-wrap .body-wrap .product-wrap .left-wrap .price-wrap .price-item{display:flex;align-items:center;column-gap:12px;justify-content:space-between;}
+.token-wrap .content-wrap .body-wrap .product-wrap .right-wrap{flex:1;background:#fff;padding:25px;display:flex;flex-direction:column;row-gap:8px;border-radius:5px;}
+.token-wrap .content-wrap .body-wrap .product-wrap .right-wrap .amount-heading{margin:0 0 8px;}
+.token-wrap .content-wrap .body-wrap .product-wrap .right-wrap .price-item{display:flex;align-items:center;column-gap:12px;justify-content:space-between;}
+.token-wrap .content-wrap .body-wrap .product-wrap .right-wrap .total-wrap{display:flex;align-items:center;column-gap:12px;justify-content:space-between;border-top:1px solid #DDD;margin:10px 0 0;padding:10px 0 0;}
+.token-wrap .content-wrap .body-wrap .payment-btns{height:48px;padding:0 30px;background:#73509E;color:#fff;border-radius:12px;border:none;position:absolute;right:0;bottom:-100px;}
+
+@media(max-width:991px){
+    .token-wrap{flex-direction:column;row-gap:20px;}
+    .token-wrap .btn-wrap{flex:0 0 100%;}
+}
+@media(max-width:767px){
+    .token-wrap .content-wrap{padding:30px 30px 100px}
+    .token-wrap .content-wrap .body-wrap .product-wrap{flex-direction:column;row-gap:30px;}
+    .token-wrap .content-wrap .body-wrap .payment-btns{font-size:13px;height:45px;padding:0 20px;bottom:-70px;}
+    .token-wrap .content-wrap .body-wrap .product-wrap .left-wrap .product-img{margin:20px 0;}
+}

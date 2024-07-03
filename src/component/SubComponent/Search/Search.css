@@ -1,0 +1,129 @@
+.inputcutom .form-control {
+    flex: 1;
+    padding-left: 2.5rem;
+    /* margin: 0; */
+
+    width: 20rem;
+}
+.inputcutom .form-control:focus,
+.inputcutom .form-control:active {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #211e241a;
+}
+.microphone-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* New-css */
+
+
+.new-microphone-icon{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    gap: 20px;
+    right: 16px;
+    top:6px;
+}
+/* .new-microphone-icon svg {
+    position: relative;
+    margin-top: 0.5rem;
+    right: 0rem;
+} */
+
+/* Style the SVG icon */
+.microphone-icon svg {
+    position: relative;
+    margin-top: 0.5rem;
+    left: 18rem;
+}
+.search-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 6px;
+
+}
+.search-icon-f{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.search-icon-f svg{ position: relative;
+    margin: 0;
+     opacity: 50%;}
+.search-icon svg {
+    position: relative;
+   margin: 0;
+    opacity: 50%;
+}
+.for-mob-only{
+    display: none;
+}
+.mob-search{
+    display: none !important;
+}
+.search-mob input{
+ height: 25px;
+ position: absolute;
+ top:32px;
+ width:190px;
+ right:0px;
+}
+.search-mob input:focus,.search-mob input:active{
+    border: 1px solid #211e241a;
+
+    outline: none;
+}
+@media (max-width: 992px) {
+    .inputcutom .form-control{
+        display: none;
+        
+    }
+    .mob-search{
+        display: block;
+    }
+    .menubar-container{
+        position: relative;
+    }
+   
+    .typ-hidden-icon{
+        display: none;
+    }
+    .microphone-icon{
+        display: none;
+    }
+    .search-icon{
+        display: none;
+    }
+    .for-mob-only{
+        position : absolute;
+        right: 70px;
+        top: 14px;
+        display: block;
+        /* transform: translate(0 , -50%); */
+    }
+    .for-mob-only svg{
+        margin: 0;
+        max-width: 18px;
+    }
+    .for-mob-only svg {
+        opacity: 90%;
+    }
+    .microphone-mob{
+        position: absolute;
+        top: 33px;
+        right: 5px;
+    }
+}

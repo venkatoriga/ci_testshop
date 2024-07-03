@@ -1,0 +1,24 @@
+.seventhConatinerProduct {
+    border-right: 1px solid rgba(115, 80, 158, 0.10);
+    border-left: 1px solid rgba(115, 80, 158, 0.10);
+    background: var(--White, #FFF);
+}
+
+.seventhConatinerProduct:hover{
+    background-color: #9B9E51;
+    box-shadow: 0px 32px 64px 0px rgba(101, 105, 4, 0.24);
+
+}
+
+.availservice{
+    opacity: 0;
+}
+.seventhConatinerProduct:hover .availservice{
+    opacity: 1;
+}
+.seventhConatinerProduct:hover p{
+    color: #FFF !important;
+}
+.seventhConatinerProduct:hover .bar2::after{
+    background-color: #FFF;
+}

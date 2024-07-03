@@ -1,0 +1,12 @@
+.benefits-main .head{display:flex;column-gap:20px;justify-content:space-between;}
+.benefits-main .head .box-btn{background:none;border:none;}
+.benefits-main .benefits-content{background:#F9F9F9;margin:50px 0 0;border-radius:12px;padding:60px 40px;display:flex;flex-wrap:wrap;}
+.benefits-main .benefits-content .item{width:calc(25%);}
+.benefits-main .benefits-content .item .circle{width:140px;height:140px;overflow:hidden;border-radius:100%;border:3px solid #DDD;margin:0 auto 25px;position:relative;}
+.benefits-main .benefits-content .item .circle:after{content:"";width:10px;background:red;position:absolute;}
+.benefits-main .benefits-content .item .score-wrap{position:absolute;top:44px;right:0;left:0;}
+.benefits-main .benefits-content .item .title{max-width:195px;margin:0 auto;font-size:16px;}
+.benefits-main .benefits-content .item .title span{display: flex;}
+.benefits-main .benefits-content .item .title .svg-wrap{position: relative;}
+.benefits-main .benefits-content .item .title .svg-wrap svg{cursor:pointer;}
+.benefits-main .benefits-content .item .title .svg-wrap span{position:absolute;border-radius:4px;background:#ffffff;color:#211E24;padding:15px;width:330px;font-size:12px;line-height:20px;bottom:55px;right:0;box-shadow:0px -3px 6px 0px rgba(0,0,0,0.16);}

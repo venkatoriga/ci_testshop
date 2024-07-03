@@ -1,0 +1,22 @@
+.popup-wrap-detailed-report{display:flex;align-items:center;justify-content:center;position:fixed;top:0;right:0;left:0;bottom:0;z-index:999;backdrop-filter:blur(2px);background-color:#0000003d;padding:0 20px;}
+.popup-wrap-detailed-report .back{position:absolute;top:0;right:0;left:0;bottom:0;}
+.popup-wrap-detailed-report .inner{background:#fff;width:100%;border-radius:12px;max-width:588px;padding:40px; padding-left:80px; padding-right: 80px;display:flex;flex-direction:column;position:relative;align-items: center;}
+.popup-wrap-detailed-report .inner .close{position:absolute;top:30px;right:30px;}
+.popup-wrap-detailed-report .inner .heading-600-20{margin: 0 0 15px;}
+.popup-wrap-detailed-report .inner .tab-wrap{display: flex;justify-content: space-between; margin: 0 0 15px;width: 100%;}
+.popup-wrap-detailed-report .inner .tab-wrap .btn{font-size:14px;padding: 0;}
+.popup-wrap-detailed-report .inner .content-wrap{text-align: left;}
+.popup-wrap-detailed-report .inner .content-wrap .heading-600-14-12{margin:0 0 5px;}
+.popup-wrap-detailed-report .inner .lists{margin:0;padding:8px 0 0 20px;list-style: auto;display: flex;flex-direction: column;row-gap:10px;}
+.popup-wrap-detailed-report .inner .lists .list{margin:0;padding:0;}
+.popup-wrap-detailed-report .inner .download-btn{flex:54px 0 0;background:#73509E;color:#fff;border-radius:12px;border:none;width:max-content;padding:0 40px;margin:30px auto 0;}
+@media(max-width:767px){
+    .popup-wrap-detailed-report .inner{padding: 30px 40px;}
+    .popup-wrap-detailed-report .inner .download-btn{flex:50px 0 0;padding:0 30px;}
+}
+@media(max-width:576px){    
+.popup-wrap-detailed-report{display:flex;align-items:flex-end;justify-content:center;position:fixed;top:0;right:0;left:0;bottom:0;z-index:999;backdrop-filter:blur(2px);background-color:#0000003d;padding:0;}
+.popup-wrap-detailed-report .inner{background:#fff;width:100%;max-width:600px;padding: 40px 15px;border-radius:12px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;display:flex;flex-direction:column;position:relative;align-items: flex-start;}
+.popup-wrap-detailed-report .inner .close{position:absolute;top:15px;right:30px; color: black;}
+.popup-wrap-detailed-report .inner .download-btn{flex:45px 0 0;padding:0 30px;}
+}

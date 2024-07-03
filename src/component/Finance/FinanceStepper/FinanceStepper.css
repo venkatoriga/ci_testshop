@@ -1,0 +1,82 @@
+.f-stpper-container {
+    width: 100%;
+    max-width: 996px;
+    margin: 0 auto;
+    padding: 24px 48px 48px 48px;
+}
+.f-button-outline{
+    width: 180px;
+    height: 54px;
+    padding: 15px 12px 15px 12px;
+border-radius: 12px;
+ background: #FFF;
+ font-size: 1rem;
+ font-weight: 600;
+ line-height: 1.6875rem;
+ letter-spacing: 0em;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 2px solid #73509E;
+ color:#73509E;
+ }
+.pt-12{padding-top: 12px;}
+.pt-24{padding-top: 24px;}
+.my-24{margin-top: 24px;margin-bottom: 24px;}
+.pt-30{padding-top: 30px;}
+.pt-32-992{padding-top: 32px;}
+.step_button{
+    height: 54px;
+    padding: 15px 12px 15px 12px;
+    gap: 10px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background-color: #73509E;
+    color: #FFF;
+    }
+
+    .f-second-stepper-btn{
+        display: flex;
+        justify-content: end;
+        gap: 24px;
+        padding-top: 48px;
+    }
+@media screen and (max-width:992px) {
+    .pt-32-992{padding-top: 0px;}
+}
+@media screen and (max-width:576px) {
+    .f-stpper-container {
+        padding: 24px 24px 24px 24px;
+    }
+    .step_button{
+        height: 40px;
+        padding: 7px 12px 7px 12px;
+        gap: 10px;
+        border-radius: 12px;
+        border: none;
+        outline: none;
+        background-color: #73509E;
+        color: #FFF;
+        }
+        .f-button-outline{
+            padding: 7px 12px 7px 12px;
+            height: 40px;
+        border-radius: 12px;
+         background: #FFF;
+       
+         font-size: 1rem;
+         font-weight: 600;
+         line-height: 1.6875rem;
+         letter-spacing: 0em;
+         border: 2px solid #73509E;
+         color:#73509E;
+         }
+
+}
+@media screen and (max-width:512px) {
+    .f-second-stepper-btn{
+        flex-direction: column-reverse;
+}
+.f-button-outline{width: 100%;}
+}

@@ -1,0 +1,19 @@
+.bi-popup-wrap .inner .heading-600-20 {color:#211E24;margin:0 0 20px;}
+.bi-popup-wrap .inner .heading-400-14-12{color:#211E24;opacity: 0.8;text-align: center;max-width:392px;}
+.bi-popup-wrap .inner .report-icon{margin: 0 0 30px;}
+.bi-popup-wrap .inner .offer-valid{display: flex;gap:10px;}
+.bi-popup-wrap .inner .price {margin:15px 0 8px;}
+.bi-popup-wrap .inner .price span{font-weight:500;}
+.bi-popup-wrap .inner .awail-btn{flex:54px 0 0;background:#73509E;color:#fff;border-radius:12px;border:none;width:max-content;padding:0 40px;margin:30px auto 0;}
+@media(max-width:767px){
+    .bi-popup-wrap .inner .report-icon{margin: 0 0 20px;}
+    .bi-popup-wrap .inner .price {margin:10px 0 5px;}
+    .bi-popup-wrap .inner .awail-btn{flex:50px 0 0;padding:0 30px;}
+}
+@media(max-width:576px){
+    .bi-popup-wrap .inner .head-wrap{row-gap:1px;}
+    .bi-popup-wrap .inner .field-group{margin: 10px 0 0;}
+    .bi-popup-wrap .inner .awail-btn{margin:25px auto 0;}
+    .bi-popup-wrap .inner .heading-600-24{text-align: center;}
+    .bi-popup-wrap .inner .awail-btn{flex:45px 0 0;padding:0 30px;}
+}

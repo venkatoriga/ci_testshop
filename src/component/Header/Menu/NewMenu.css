@@ -1,0 +1,121 @@
+.newMenu{display: flex;justify-content: space-between; margin-top: 40px;width: 100%; position: relative;}
+.newMenu .menus{display: flex;}
+.newMenu .menus .menus-ui{display: flex; padding: 0;gap: 40px; list-style: none;margin: 0;}
+.newMenu .menus .menus-ui .menus-li{display: flex;gap: 10px; cursor: pointer; padding-bottom: 26px; }
+.newMenu .menus .menus-ui .menus-li-active{font-weight: 600;border-bottom: 4px solid #73509E;}
+.close-svg-rotated{transform: rotate(180deg);}
+.newMenu .newsearch{flex-grow: 1; padding-bottom: 26px;-webkit-animation: openSearch 0.9s linear both;animation: openSearch 0.5s linear both;}
+.newMenu .closeSearch .expended-search{position: absolute;z-index: 2; display: flex;align-items: center; gap: 12px; width: 100%;-webkit-animation: openSearch 0.9s linear both; animation: openSearch 0.5s linear both;}
+.newMenu .closeSearch .expended-search .inputcutom{width: 100%;}
+.f-logo{display: none;width: 64px;align-items: center;}
+
+
+/* .top-banner {
+        text-align: center;
+        width: 100%;
+        padding: 8px 0;
+        background-color: #f8f9fa;
+        color: #333;
+        font-size: 16px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        position: relative;
+        z-index: 10;
+    }
+ */
+.phone-avatar{position: absolute; display: none;right: 30px; gap: 10px;}
+.phone-avatar .col{padding-left: 0;}
+  @-webkit-keyframes openSearch {
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes openSearch {
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+  }
+  
+.close-search{position: absolute; display: flex;align-items: center; width: 100%;background-color: #FFF; gap: 12px;-webkit-animation: closeSearch1 0.9s linear both;
+        animation: closeSearch1 0.9s linear both;}
+.closeSearch{
+        /* flex-grow: 0;  */
+       
+        display: flex;
+        justify-content: end;
+        padding-bottom: 26px;
+        }
+        @keyframes closeSearch {
+                from {width: 100%;}
+                to {width: 10%;}
+              }
+        
+  @-webkit-keyframes closeSearch1 {
+        100% {
+          -webkit-transform: scaleX(0);
+                  transform: scaleX(0);
+          -webkit-transform-origin: 100% 100%;
+                  transform-origin: 100% 100%;
+          opacity: 1;
+        }
+        0% {
+          -webkit-transform: scaleX(1);
+                  transform: scaleX(1);
+          -webkit-transform-origin: 100% 100%;
+                  transform-origin: 100% 100%;
+          opacity: 1;
+        }
+      }
+      @keyframes closeSearch1 {
+        100% {
+          -webkit-transform: scaleX(0);
+                  transform: scaleX(0);
+          -webkit-transform-origin: 100% 100%;
+                  transform-origin: 100% 100%;
+          opacity: 1;
+        }
+        0% {
+          -webkit-transform: scaleX(1);
+                  transform: scaleX(1);
+          -webkit-transform-origin: 100% 100%;
+                  transform-origin: 100% 100%;
+          opacity: 1;
+        }
+      }
+
+
+      .cust-toggel-f{ display: none;padding-top: 18px;padding-bottom: 18px;}
+      @media screen and (max-width:1125px) {
+        .newMenu .menus .menus-ui {gap: 20px;}
+      }
+      @media screen and (max-width:997px) {
+        .newMenu{margin-top: 0;}
+        .newMenu .menus .menus-ui{display: none;}
+        .cust-toggel-f{display: flex;}
+        .closeSearch{align-items: center;padding-bottom: 0;}
+        .f-logo{display: flex;}
+      }
+      @media screen and (max-width:992px) {
+        .phone-avatar{display: flex;}
+      }

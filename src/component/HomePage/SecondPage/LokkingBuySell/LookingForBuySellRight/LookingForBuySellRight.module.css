@@ -1,0 +1,15 @@
+.maindiv{
+    display: flex;
+    justify-content: center;
+padding-top: 15px;
+}
+@media (max-width:768px){
+    .maindiv{
+        min-height: 340px;
+    }
+}
+@media (max-width:576px){
+    .maindiv{
+        min-height: 300px;
+    }
+}

@@ -1,0 +1,10 @@
+.bi-popup-wrap .inner-video .video-wrap{max-width:757px;padding: 30px 0 20px;position: relative;}
+.bi-popup-wrap .inner-video{
+    background: #fff;
+    max-width: 600px;
+    padding: 30px 30px;
+    border-radius:16px;
+}
+.bi-popup-wrap .inner-video .play-icon{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 2;}
+.bi-popup-wrap .inner-video .video-wrap .machine-video{width:100%;max-height:408px;}
+.bi-popup-wrap .inner-video .timer span{width: 200px;height: 4px;border:#AAAAAA;}

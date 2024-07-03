@@ -1,0 +1,10 @@
+.bi-popup-wrap .inner .img-wrap{padding: 30px 20px;width:100%;max-height:400px;}
+.bi-popup-wrap .inner .img-wrap .machine-img{width:100%;border-radius:8px;overflow:hidden;max-height:400px;object-fit:cover;}
+.bi-popup-wrap .inner .pagination-main{display: flex;gap: 20px;}
+.bi-popup-wrap .inner .pagination-main .left-btn,
+.bi-popup-wrap .inner .pagination-main .right-btn{width: 46px;height: 46px;border: 1px solid #211E24;border-radius: 100%;background: none;}
+
+@media(max-width:767px){
+    .bi-popup-wrap .inner .pagination-main .left-btn,
+    .bi-popup-wrap .inner .pagination-main .right-btn{width:30px;height: 30px;}
+}

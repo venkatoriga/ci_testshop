@@ -1,0 +1,50 @@
+.hider {
+    display: block;
+}
+
+.eventsCard {
+    box-shadow: none !important;
+}
+
+.card-flex-child {
+    border: 0 !important;
+}
+
+.cardcontent {
+    background: #9B9E51;
+    display: none;
+    color: white !important;
+    text-align: center;
+}
+
+.cardcontent1 {
+    color: white !important;
+    text-align: left;
+}
+
+.card-flex-child:hover .cardcontent {
+
+    display: block;
+}
+
+.card-flex-child:hover .hider {
+    display: none;
+
+}
+
+.card-flex-child:hover .eventsCard {
+    box-shadow: 0px 32px 64px 0px rgba(101, 105, 4, 0.24) !important;
+
+}
+
+/* media query for extra small screen */
+@media (max-width: 575px) {
+    .card-flex {
+        flex-wrap: wrap;
+
+    }
+
+    .card-flex-child {
+        margin: 10px 0px;
+    }
+}

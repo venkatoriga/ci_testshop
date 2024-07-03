@@ -1,0 +1,82 @@
+.top-wrap{display:flex;align-items:center;justify-content:space-between;}
+.top-wrap .btn-back{border:none;background:transparent;}
+.top-wrap .btn-upload{border:none;background:transparent;color:#73509E;display:flex;align-items:center;column-gap:10px;}
+.field-group-wrap .btn-upload{border:none;background:transparent;color:#73509E;display:flex;align-items:center;column-gap:10px;}
+.top-wrap .items-wrap{display:flex;align-items:center;column-gap:100px;}
+.top-wrap .items-wrap .item{display:flex;align-items:center;column-gap:12px;position:relative;}
+.top-wrap .items-wrap .item:first-child::after{content:"";width:80px;top:50%;height:2px;position:absolute;left:calc(100% + 10px);background:#00000066;}
+.top-wrap .items-wrap .item .number{display:flex;align-items:center;justify-content:center;width:32px;height:32px;background:#DDD;color:#FCFCFC;border-radius:32px;}
+.top-wrap .items-wrap .item .text{color:#7a787c;}
+.top-wrap .items-wrap .item.active .number{background:#73509E;color:#FFF;}
+.top-wrap .items-wrap .item.active .text{color:#211E24;}
+.top-wrap .items-wrap .item.completed .number{background:#3C7D0E;color:#FFF;}
+.machine-details{background:#F9F9F9;padding:48px;box-sizing:border-box;max-width:996px;width:100%;margin:50px auto 0;min-height:500px;}
+.machine-details .heading{color:#211E24;margin-bottom:20px;}
+.machine-details .machine-content{display:flex;align-items:flex-start;column-gap:40px;border-bottom:1px solid #d5cece;}
+.machine-details .machine-content:last-child{border-bottom:none;}
+.machine-details .machine-content .left-section{display:flex;flex-direction:column;max-width:300px;}
+.machine-details .machine-content .right-section{flex:1;}
+.machine-details .machine-content .right-section .field-group-wrap{display:flex;flex-direction:column;}
+.machine-details .machine-content .right-section .field-group-wrap .add-machine{display:flex;align-items:center;column-gap:10px;color:#211E24;cursor:pointer;margin-top:15px;align-self:flex-end;border:none;background:transparent;}
+.machine-details .machine-content .right-section .field-group{width:100%;padding-top:15px;margin:15px 0 0;position:relative;}
+.machine-details .machine-content .right-section .field-group .input-field{width:100%;outline:0;border:1px solid #AAAAAA;padding:10px;background:transparent;}
+.machine-details .machine-content .right-section .field-group .input-label{display:block;position:absolute;top:15px;left:10px;background:#F9F9F9;color:#AAAAAA;padding:5px;}
+.machine-details .machine-content .right-section .btn-login{background:#73509E;color:#FFF;border:none;border-radius:6px;height:54px;padding:0 15px;display:flex;align-items:center;justify-content:center;margin-top:100px;margin-left:auto;}
+.machine-details .machine-content .right-section .btn-login:disabled{opacity:0.6;}
+.machine-details .machine-content .right-section .date-picker-wrap{position:relative;}
+.machine-details .machine-content .right-section .date-picker-wrap .calendar-icon{position:absolute;top:10px;right:15px;}
+.machine-details .machine-content .right-section .btn-wrap{display:flex;justify-content:flex-end;column-gap:12px;margin:80px 0 0;}
+.machine-details .machine-content .right-section .btn-wrap .btn-login{margin:0;}
+.btn-skip{background:transparent;color:#73509E;border:2px solid #73509E;border-radius:6px;height:54px;padding:0 15px;display:flex;align-items:center;justify-content:center;min-width:180px;}
+.btn-submit{background:#73509E;color:#FFF;border:2px solid #73509E;border-radius:6px;height:54px;padding:0 15px;display:flex;align-items:center;justify-content:center;min-width:180px;}
+
+
+@media(max-width:991px){
+    .top-wrap{align-items: flex-start;}
+    .top-wrap .center-wrap .items-wrap{column-gap:50px;}
+    .top-wrap .items-wrap .item{flex-direction:column;row-gap:10px;}
+    .top-wrap .items-wrap .item:first-child::after{content:"";width:154px;top:23%;height:2px;position:absolute;left:calc(100% - 43px);}
+    .machine-details .machine-content{flex-direction: column;}
+    .machine-details .machine-content .left-section{max-width:570px;margin-bottom:10px;}
+    .machine-details .machine-content .right-section{width:100%;}
+}
+@media(max-width:767px){
+    .timePreference-wrap .timePreference-item{width:50% !important;column-gap:10px;flex:0 0 48%;align-items:center;text-align:center;}
+    .timePreference-wrap{display:flex;align-items:center;flex-wrap:wrap !important;gap:16px !important;}
+}
+
+@media(max-width:576px){
+    .top-wrap{justify-content:center !important;}
+    .top-wrap .center-wrap{padding-top:50px;position: relative;}
+    .top-wrap .center-wrap .items-wrap{column-gap:30px;}
+    .top-wrap .items-wrap .item:first-child::after{content:"";width:105px;top:23%;height:2px;position:absolute;left:calc(100% - 31px);}
+    .top-wrap .items-wrap .item{flex-direction:column;row-gap:10px;}
+    .top-wrap .btn-upload{position: absolute;right:30px;}
+    .top-wrap .btn-back{position: absolute;left: 18px;}
+    .machine-details{padding:24px 16px;}
+    .machine-details .heading{margin-bottom:10px;}
+    .machine-details .heading-600-20{margin-bottom:2px !important;}
+    .machine-details .machine-content .right-section .btn-wrap{justify-content:center;}
+    .machine-details .machine-content .right-section .bi-form-group .bi-form-label{font-size:12px;}
+    .machine-details .machine-content .right-section .bi-form-group .bi-form-label::after{content: "";height: 2px;top: 9px; background-color: #FFFFFF;z-index: -1;}
+    .machine-details .machine-content .right-section .add-machine{font-size:14px;}
+    .machine-details .machine-content .left-section .heading{font-size:14px;}
+    .btn-skip{min-width:150px;height:48px;}
+    .btn-submit{min-width:150px;height: 48px;}
+    .timePreference-wrap .timePreference-item .time{font-size:14px;}
+    .timePreference-wrap .timePreference-item .name{font-size:14px;}
+    .machine-details .machine-content .right-section .btn-login{margin-top:80px !important;}
+
+}
+@media (max-width:479px) {
+    .machine-details .pb-5{padding-bottom:24px !important;}
+    .machine-details .pt-5{padding-top:24px !important;}
+    .timePreference-wrap{display:flex;align-items:center;flex-wrap:wrap !important;gap:12px !important;}
+    .timePreference-wrap .timePreference-item{width:50% !important;column-gap:5px;flex:0 0 47%;align-items: flex-start;}
+    .timePreference-wrap .timePreference-item .time{font-size:12px;}
+    .timePreference-wrap .timePreference-item .name{font-size:12px;}
+    .top-wrap .btn-upload svg{width:16px;height:16px;}
+    .btn-skip{min-width:150px;height:45px;}
+    .btn-submit{min-width:150px;height: 45px;}
+    .machine-details .machine-content .right-section .btn-wrap{margin-top:40px !important;}
+}
