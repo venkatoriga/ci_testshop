@@ -1,0 +1,48 @@
+name: Sourcery Analysis
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  sourcery:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x' # Specify the Python version you are using
+
+    - name: Install Sourcery
+      run: |
+        pip install sourcery-cli
+
+    - name: Run Sourcery
+      env:
+        SOURCERY_API_TOKEN: ${{ secrets.SOURCERY_API_TOKEN }}
+      run: |
+        sourcery review .
+
+    - name: Upload Sourcery Review Report
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: sourcery-report
+        path: sourcery_report.json
+
+    - name: Post Comment with Results
+      if: always()
+      uses: peter-evans/create-or-update-comment@v2
+      with:
+        issue-number: ${{ github.event.pull_request.number }}
+        body: |
+          ## Sourcery Analysis Results
+          [View the report](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
