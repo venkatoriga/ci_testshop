@@ -25,9 +25,9 @@ jobs:
       run: |
         npm install
 
-    - name: Install Sourcery
-      run: |
-        npm install -g sourcery-cli
+    #- name: Install Sourcery
+      #run: |
+        #npm install -g sourcery-cli
 
     - name: Run Sourcery
       env:
