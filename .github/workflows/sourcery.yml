@@ -29,11 +29,11 @@ jobs:
       #run: |
         #npm install -g sourcery-cli
 
-    - name: Run Sourcery
-      env:
-        SOURCERY_API_TOKEN: ${{ secrets.SOURCERY_API_TOKEN }}
-      run: |
-        sourcery review .
+    #- name: Run Sourcery
+      #env:
+        #SOURCERY_API_TOKEN: ${{ secrets.SOURCERY_API_TOKEN }}
+      #run: |
+        #sourcery review .
 
     - name: Upload Sourcery Review Report
       if: always()
